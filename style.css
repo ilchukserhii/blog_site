@@ -9,6 +9,7 @@
 body {
   width: 1366px;
   margin: 0 auto;
+  background: url(img/main-backgound.png) no-repeat bottom;
 }
 
 .header {
@@ -232,7 +233,6 @@ body {
 }
 
 .client-block {
-  background: url(img/main-backgound.png);
   background-repeat: no-repeat;
   padding-top: 96px;
 }
@@ -289,4 +289,89 @@ body {
 }
 .client-block .client-logo-block ul li:last-child {
   background-color: #1F3F68;
+}
+
+.footer {
+  width: 1270px;
+  color: white;
+  padding-right: 197px;
+  font-family: "Gilroy-Thin";
+  background: url(img/footer-background.png) no-repeat;
+}
+.footer .footer-line-container {
+  padding-left: 213px;
+  padding-top: 91px;
+  padding-bottom: 96px;
+  border-bottom: 1px solid white;
+}
+.footer .footer-line-container .footer-contact-block {
+  height: 204px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footer-line-container .footer-contact-block h2 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  width: 317px;
+}
+.footer .footer-line-container .footer-contact-block p {
+  margin-top: 32px;
+  width: 460px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+}
+.footer .footer-line-container .footer-contact-block button {
+  width: 220px;
+  height: 56px;
+  font-family: "Gilroy-Thin";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  border-radius: 10px;
+  background-color: #5A98D0;
+  border: 0;
+  color: white;
+}
+.footer .footer-link-block {
+  padding-top: 96px;
+  padding-left: 213px;
+  height: 478px;
+}
+.footer .footer-link-block .group-links-block {
+  display: flex;
+}
+.footer .footer-link-block .group-links-block .logo-contacts-block {
+  display: table;
+}
+.footer .footer-link-block .block li {
+  list-style: none;
+}
+.footer .footer-link-block .block li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Gilroy-Thin";
+  letter-spacing: 0.05em;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.footer .footer-link-block .block li:first-child {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.footer .footer-link-block .about {
+  margin-left: 100px;
+}
+.footer .footer-link-block .social {
+  margin-left: 77px;
+}
+.footer .end {
+  margin: 64px 0;
 }/*# sourceMappingURL=style.css.map */
