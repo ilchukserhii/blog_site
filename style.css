@@ -1,0 +1,292 @@
+@import url(//db.onlinewebfonts.com/c/d1243736bfe07b546f8f1e54e7804afb?family=Galien);
+@import url(//db.onlinewebfonts.com/c/4443b611d51ff971972892a2ade08240?family=Gilroy-Thin);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 1366px;
+  max-width: 1366px;
+  height: 768px;
+  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  margin: 0 auto;
+  position: relative;
+}
+.header .navigation {
+  width: 1200px;
+  height: 48px;
+  margin: 40px 83px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navigation .nav-menu {
+  background: url(img/nav-menu-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  width: 16px;
+  height: 16px;
+}
+.header .header-content {
+  margin-top: 101px;
+}
+.header .header-content h1 {
+  font-family: "Galien";
+  font-size: 64px;
+  width: 510px;
+  line-height: 74px;
+  color: #1F3F68;
+}
+.header .header-content p {
+  font-family: "Gilroy-Thin";
+  font-size: 16px;
+  line-height: 26px;
+  width: 425px;
+  color: #1F3F68;
+  margin-top: 32px;
+}
+.header .header-content button {
+  margin-top: 71px;
+  width: 220px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #5A98D0;
+  box-shadow: 5px 10px 20px;
+  border: 0px;
+  font-family: "Gilroy-Thin";
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+}
+.header .header-content button:first-line {
+  text-transform: capitalize;
+}
+.header .header-bg-img {
+  position: absolute;
+  top: 133px;
+  left: 655px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.block-content-features {
+  margin-top: 180px;
+  height: 1162px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  padding-top: 12px;
+}
+.block-content-features h2 {
+  width: 358px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  color: #1F3F68;
+  font-family: "Galien";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 5px;
+}
+.block-content-features .first {
+  margin: 1px;
+}
+.block-content-features .feature-block {
+  width: 380px;
+  height: 525px;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  padding: 48px;
+  color: #1F3F68;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.block-content-features .feature-block .first-img {
+  width: 182px;
+  height: 132px;
+  margin-left: 26px;
+}
+.block-content-features .feature-block .second-img {
+  position: absolute;
+  top: -30px;
+  left: 70px;
+}
+.block-content-features .feature-block .third-img {
+  width: 156px;
+  height: 131px;
+  margin-left: 46px;
+}
+.block-content-features .feature-block h3 {
+  margin-top: 56px;
+  font-family: "Galien";
+  font-size: 20px;
+  line-height: 30px;
+  width: 257px;
+  letter-spacing: 0.05em;
+}
+.block-content-features .feature-block p {
+  margin-top: 16px;
+  font-family: "Gilroy-Thin";
+  font-size: 16px;
+  line-height: 26px;
+  width: 284px;
+  color: #1F3F68;
+  letter-spacing: 0.05em;
+}
+.block-content-features .feature-block a {
+  text-decoration: none;
+  font-family: "Gilroy-Thin";
+  font-size: 14px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 32px;
+}
+
+.our-projects {
+  margin-top: 192px;
+  margin-bottom: 192px;
+  height: 1118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 96px;
+}
+.our-projects .our-projects-header {
+  display: flex;
+  gap: 93px;
+  color: #1F3F68;
+}
+.our-projects .our-projects-header h2 {
+  font-family: "Galien";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  width: 227px;
+}
+.our-projects .our-projects-header p {
+  font-family: "Gilroy-Thin";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  width: 540px;
+}
+.our-projects .project-image-block-big {
+  position: relative;
+}
+.our-projects .project-image-block-big .img-links-big {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+}
+.our-projects .project-image-block-big .img-links-big a {
+  text-align: right;
+}
+.our-projects .project-image-block-small {
+  position: relative;
+  margin-top: 1px;
+}
+.our-projects .project-image-block-small .img-links-small {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+}
+.our-projects a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  height: 46px;
+  line-height: 46px;
+  font-family: "Gilroy-Thin";
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+.our-projects .big-link {
+  font-size: 28px;
+}
+.our-projects .small-link {
+  margin-top: 8px;
+  font-size: 16px;
+}
+.our-projects .small-blocks {
+  display: flex;
+  flex-direction: row;
+  gap: 93px;
+}
+
+.client-block {
+  background: url(img/main-backgound.png);
+  background-repeat: no-repeat;
+  padding-top: 96px;
+}
+.client-block .client-block-content {
+  color: white;
+  letter-spacing: 0.05em;
+}
+.client-block .client-block-content .client-block-content-header {
+  display: flex;
+  gap: 97px;
+}
+.client-block .client-block-content .client-block-content-header h2 {
+  font-family: "Galien";
+  font-size: 36px;
+  line-height: 46px;
+  width: 223px;
+}
+.client-block .client-block-content .client-block-content-header p {
+  font-family: "Gilroy-Thin";
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+}
+.client-block .client-logo-block {
+  margin-top: 111px;
+  padding-bottom: 125px;
+}
+.client-block .client-logo-block ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.client-block .client-logo-block ul li {
+  list-style: none;
+  width: 235px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.client-block .client-logo-block ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Gilroy-Thin";
+  font-size: 20px;
+  height: 128px;
+  line-height: 128px;
+  text-align: center;
+  color: white;
+}
+.client-block .client-logo-block ul li:nth-child(n+5) {
+  border-bottom: 0;
+}
+.client-block .client-logo-block ul li:nth-child(4n+4) {
+  border-right: 0;
+}
+.client-block .client-logo-block ul li:last-child {
+  background-color: #1F3F68;
+}/*# sourceMappingURL=style.css.map */
